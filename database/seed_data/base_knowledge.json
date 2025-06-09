@@ -1,0 +1,70 @@
+{
+  "documents": [
+    {
+      "id": "swift_intro",
+      "content": "Swift is a powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS development. Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast.",
+      "source": "Apple Developer Documentation",
+      "metadata": {
+        "category": "programming_language",
+        "difficulty": "beginner",
+        "tags": ["swift", "ios", "programming"]
+      }
+    },
+    {
+      "id": "swiftui_intro",
+      "content": "SwiftUI is an innovative, exceptionally simple way to build user interfaces across all Apple platforms with the power of Swift. Build user interfaces for any Apple device using just one set of tools and APIs. With a declarative Swift syntax that's easy to read and natural to write, SwiftUI works seamlessly with new Xcode design tools to keep your code and design perfectly in sync.",
+      "source": "Apple SwiftUI Documentation",
+      "metadata": {
+        "category": "ui_framework",
+        "difficulty": "intermediate",
+        "tags": ["swiftui", "ui", "declarative"]
+      }
+    },
+    {
+      "id": "rag_explanation",
+      "content": "Retrieval-Augmented Generation (RAG) is a framework that combines the parametric knowledge of large language models with non-parametric external knowledge sources. RAG retrieves relevant documents from a knowledge base and uses them to augment the input to a language model, enabling more accurate and up-to-date responses while maintaining the fluency of generated text.",
+      "source": "AI Research Papers",
+      "metadata": {
+        "category": "artificial_intelligence",
+        "difficulty": "advanced",
+        "tags": ["rag", "ai", "nlp", "retrieval"]
+      }
+    },
+    {
+      "id": "ios_development",
+      "content": "iOS app development involves creating applications for Apple's mobile operating system using Xcode IDE, Swift or Objective-C programming languages, and various frameworks like UIKit, SwiftUI, Core Data, and Core ML. Best practices include following Apple's Human Interface Guidelines, implementing proper memory management, ensuring responsive UI design, and optimizing for different device sizes and iOS versions.",
+      "source": "iOS Development Guide",
+      "metadata": {
+        "category": "mobile_development",
+        "difficulty": "intermediate",
+        "tags": ["ios", "mobile", "app_development"]
+      }
+    },
+    {
+      "id": "ml_mobile",
+      "content": "Machine learning in mobile applications enables intelligent features like image recognition, natural language processing, personalized recommendations, and predictive analytics. Core ML is Apple's framework for integrating machine learning models into iOS apps efficiently. It supports various model formats and provides optimized inference on Apple devices while maintaining user privacy through on-device processing.",
+      "source": "Apple Core ML Documentation",
+      "metadata": {
+        "category": "machine_learning",
+        "difficulty": "advanced",
+        "tags": ["machine_learning", "core_ml", "mobile", "ai"]
+      }
+    },
+    {
+      "id": "mvvm_pattern",
+      "content": "Model-View-ViewModel (MVVM) is an architectural pattern commonly used in SwiftUI applications. The Model represents data and business logic, the View displays the user interface, and the ViewModel acts as a binding layer between Model and View. This pattern promotes separation of concerns, testability, and maintainable code structure in iOS applications.",
+      "source": "iOS Architecture Patterns",
+      "metadata": {
+        "category": "architecture",
+        "difficulty": "intermediate",
+        "tags": ["mvvm", "architecture", "swiftui", "design_pattern"]
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created_at": "2024-01-01T00:00:00Z",
+    "description": "Base knowledge for conversational AI agent",
+    "total_documents": 6
+  }
+}

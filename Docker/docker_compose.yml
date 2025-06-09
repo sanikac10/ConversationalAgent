@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  rag-api:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile.api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../Database:/app/Database
+      - ../Logs:/app/Logs
+    environment:
+      - PYTHONPATH=/app
+      - FLASK_ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - rag-api
+    restart: unless-stopped
+
+volumes:
+  database_data:
+  logs_data:

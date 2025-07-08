@@ -39,7 +39,7 @@ Status
 ✅ RAG System - Production Ready
 ✅ API Integration - Functional
 ⏳ Fine-tuned Model - Training on ASU Sol Supercomputer
-The system is fully functional with intelligent context retrieval. The fine-tuned Llama model will enhance response quality once training completes.
+The system is fully functional with intelligent context retrieval. The fine-tuned Llama 3 model will enhance response quality once training completes.
 
 Documentation
 Setup Guide 

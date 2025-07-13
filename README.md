@@ -1,6 +1,6 @@
 # Conversational Agent with RAG - iOS App
 
-A sophisticated multi-turn conversational AI agent built with SwiftUI that leverages Retrieval-Augmented Generation (RAG) for enhanced responses.
+A sophisticated multi-turn conversational AI agent built with SwiftUI that leverages the Retrieval-Augmented Generation (RAG) for enhanced responses.
 
 ## Features
 
